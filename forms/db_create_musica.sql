@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS subscriber_maior (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    email TEXT NOT NULL UNIQUE
+);
