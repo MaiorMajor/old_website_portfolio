@@ -1,8 +1,8 @@
-<?php include ('../templates/HEAD-musica.php'); ?>
+<?php include ('./templates/HEAD-musica.php'); ?>
 
 <body class="musica">
 
-<?php include ('../templates/PRELOADER-musica.php'); ('../templates/Menu Nav Global/ASIDE-musica.php'); ?>
+<?php include ('./templates/PRELOADER-musica.php'); ('./templates/Menu Nav Global/ASIDE-musica.php'); ?>
 
   <header class="musica">
     <section class="news-ticker">
@@ -10,7 +10,7 @@
             target="_blank">PAGAR UMA JOLA</a></strong></span>
     </section>
 
-    <?php include('../templates/Menu Nav Global/ASIDE-musica.php'); ?>
+    <?php include('./templates/Menu Nav Global/ASIDE-musica.php'); ?>
     
     <nav id="main-nav" class="navbar">
       <div class="nav-logo-container">
@@ -32,7 +32,7 @@
       <h1 class="musica-about">Sobre Mim</h1>
       <br>
       <p>
-        <a href="../artes/home.php">Jorge Marques</a>, Licenciado em Artes Plásticas pela Faculdade de Belas Artes da
+        <a href="./artes/home.php">Jorge Marques</a>, Licenciado em Artes Plásticas pela Faculdade de Belas Artes da
         Universidade do Porto, reside atualmente em Marco de Canaveses. Partindo de um trabalho maioritariamente visual,
         começou a demonstrar interesse pela poesia, o que o levou a desenvolver uma linguagem musical, complementada com
         a pintura e o video. A sua influência pela cultura Hip-Hop, que foi descobrindo desde os 14 anos, é bastante
@@ -44,4 +44,4 @@
       <img src="../images/maior.jpg" alt="Profile Picture"  itemprop="image" />
     </section>
   </main>
-  <?php include ('../templates/FOOTER-musica.php'); ?>
+  <?php include ('./templates/FOOTER-musica.php'); ?>

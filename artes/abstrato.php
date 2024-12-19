@@ -1,16 +1,16 @@
-<?php include('../templates/HEAD-artes.php'); ?>
+<?php include('./templates/HEAD-artes.php'); ?>
 
 <body class="artes">
 
-  <?php include('../templates/PRELOADER-artes.php'); ?>
+  <?php include('./templates/PRELOADER-artes.php'); ?>
 
   <header class="artes">
 
-    <?php include('../templates/TICKER.php'); ?>
+    <?php include('./templates/TICKER.php'); ?>
 
-    <?php include('../templates/Menu Nav Global/ASIDE-artes.php'); ?>
+    <?php include('./templates/Menu Nav Global/ASIDE-artes.php'); ?>
 
-    <?php include('../templates/NAVBAR-belasartes.php'); ?>
+    <?php include('./templates/NAVBAR-belasartes.php'); ?>
 
 
   </header>
@@ -73,8 +73,8 @@
           <p><em>Data:</em> <span itemprop="dateCreated">2020</span></p>
         </article>
       </section>
-      <?php include('../templates/BOTOES.php'); ?>
+      <?php include('./templates/BOTOES.php'); ?>
     </div>
   </main>
 
-  <?php include('../templates/FOOTER-artes.php'); ?>
+  <?php include('./templates/FOOTER-artes.php'); ?>

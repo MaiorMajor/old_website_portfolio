@@ -10,7 +10,7 @@
       <a href="https://www.facebook.com/MaiorMajor9" target="_blank"><i class="fa fa-facebook"></i></a>
     </aside>
 
-    <form id="newsletter-form" class="footer-form" action="../forms/newsletter_maior.php" method="post">
+    <form id="newsletter-form" class="footer-form" action="./forms/newsletter_maior.php" method="post">
       <h2>Newsletter:</h2>
       <label for="nome">Nome:</label>
       <input type="text" id="nome" name="nome" required>

@@ -78,14 +78,14 @@
             $mail->SMTPAuth = true;
 
             // Replace with your Gmail username
-            $mail->Username = 'maiormajor.music@gmail.com';
+            $mail->Username = '';
 
             // Replace with your Gmail "app password"
-            $mail->Password = 'zkpecfdmuyfemizr';
+            $mail->Password = '';
 
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
             $mail->Port = 465;
-            $mail->setFrom('maiormajor.music@gmail.com', 'Maior Major');
+            $mail->setFrom('', 'Maior Major');
             $mail->addAddress($email, $name);
             $mail->CharSet = 'UTF-8';
             $mail->Subject = 'Bem-vindx à Newsletter do Maior';

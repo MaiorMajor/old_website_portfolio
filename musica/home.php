@@ -1,8 +1,8 @@
-<?php include('../templates/HEAD-musica.php'); ?>
+<?php include('./templates/HEAD-musica.php'); ?>
 
 <body class="musica">
 
-  <?php include('../templates/PRELOADER-musica.php'); ?>
+  <?php include('./templates/PRELOADER-musica.php'); ?>
 
   <header class="musica">
 
@@ -10,11 +10,11 @@
       <span>Manda graveto que um g tá broke :/ <strong><a href="https://www.paypal.com/donate/?hosted_button_id=NBQLB3ED8JMU4" target="_blank">DOAR</a></strong></span>
     </section>
 
-    <?php include('../templates/Menu Nav Global/ASIDE-musica.php'); ?>
+    <?php include('./templates/Menu Nav Global/ASIDE-musica.php'); ?>
 
     <nav id="main-nav" class="navbar">
       <div class="nav-logo-container">
-        <a href="../index.php"><img src="../images/LOGO_MAIOR.png" alt="Logo" class="logo" /></a>
+        <a href="./index.php"><img src="../images/LOGO_MAIOR.png" alt="Logo" class="logo" /></a>
       </div>
       <ul class="menu">
         <li class="list">
@@ -42,4 +42,4 @@
     </article>
   </main>
 
-  <?php include('../templates/FOOTER-musica.php'); ?>
+  <?php include('./templates/FOOTER-musica.php'); ?>

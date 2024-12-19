@@ -1,16 +1,16 @@
-<?php include('../templates/HEAD-artes.php'); ?>
+<?php include('./templates/HEAD-artes.php'); ?>
 
 <body class="artes">
-  <?php include('../templates/PRELOADER-artes.php'); ?>
+  <?php include('./templates/PRELOADER-artes.php'); ?>
   <header class="artes">
 
-    <?php include('../templates/TICKER.php'); ?>
+    <?php include('./templates/TICKER.php'); ?>
 
-    <?php include('../templates/Menu Nav Global/ASIDE-artes.php'); ?>
+    <?php include('./templates/Menu Nav Global/ASIDE-artes.php'); ?>
 
     <nav id="main-nav" class="navbar">
       <div class="nav-logo-container">
-        <a href="../index.php"><img src="../images/logojm.png" alt="Logo" class="logo" /></a>
+        <a href="./index.php"><img src="../images/logojm.png" alt="Logo" class="logo" /></a>
       </div>
       <ul class="menu">
         <li class="list">
@@ -79,4 +79,4 @@
     </article>
   </main>
 
-  <?php include('../templates/FOOTER-artes.php'); ?>
+  <?php include('./templates/FOOTER-artes.php'); ?>

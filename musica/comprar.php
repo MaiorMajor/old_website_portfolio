@@ -1,9 +1,9 @@
-<?php include('../templates/HEAD-musica.php'); ?>
+<?php include('./templates/HEAD-musica.php'); ?>
 
 <body id="encomendas" class="encomendas">
 	<a href="merch.php">VOLTAR</a>
 	<h1 class="encomendas-h1">ENCOMENDAR PRODUTO</h1>
-	<form id="encomendaForm" class="encomendas-form" action="../forms/processar_formulario.php" method="post">
+	<form id="encomendaForm" class="encomendas-form" action="./forms/processar_formulario.php" method="post">
 		<label for="name">Nome:</label>
 		<input type="text" id="name" name="name" required><br>
 
@@ -24,7 +24,7 @@
 
 		<input type="submit" value="Enviar Encomenda">
 	</form>
-	<script src="../script.js"></script>
+	<script src="./script.js"></script>
 
 </body>
 

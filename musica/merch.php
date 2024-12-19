@@ -1,15 +1,15 @@
-<?php include('../templates/HEAD-musica.php'); ?>
+<?php include('./templates/HEAD-musica.php'); ?>
 
 <body class="musica">
 
-  <?php include('../templates/PRELOADER-musica.php'); ?>
+  <?php include('./templates/PRELOADER-musica.php'); ?>
 
     <header class="musica">
         <section class="news-ticker">
             <span>Apoia artistas vocais <strong><a href="https://www.paypal.com/donate/?hosted_button_id=NBQLB3ED8JMU4" target="_blank">DOAR</a></strong></span>
         </section>
 
-    <?php include('../templates/Menu Nav Global/ASIDE-musica.php'); ?>
+    <?php include('./templates/Menu Nav Global/ASIDE-musica.php'); ?>
 
         <nav id="main-nav" class="navbar">
             <div class="nav-logo-container">
@@ -62,4 +62,4 @@
         </section>
     </main>
 
-    <?php include('../templates/FOOTER-musica.php'); ?>
+    <?php include('./templates/FOOTER-musica.php'); ?>

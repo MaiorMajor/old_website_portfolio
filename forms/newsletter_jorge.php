@@ -80,10 +80,10 @@
             $mail->SMTPAuth = true;
 
             // Replace with your Gmail username
-            $mail->Username = 'jorgemarques.studio@gmail.com';
+            $mail->Username = '';
 
             // Replace with your Gmail "app password"
-            $mail->Password = 'nhfjbmictluqjkjw';
+            $mail->Password = '';
 
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
             $mail->Port = 465;
